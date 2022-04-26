@@ -29,14 +29,14 @@ public class TSTD {
 		NatureofPayment.selectByIndex(3);
 		Select BankName = new Select(driver.findElement(By.id("NetBank_Name_c")));
 		BankName.selectByIndex(3);
-		driver.findElement(By.xpath("//*[@id=\"div_tan_error\"]/div/input")).sendKeys("2525456874142");
+		driver.findElement(By.xpath("//*[@id=\"div_tan_error\"]/div/input")).sendKeys("ABCDE1234A");
 		Select AssessmentYear = new Select(
 				driver.findElement(By.xpath("//*[@id=\"div_assessment_error\"]/div/select")));
 		AssessmentYear.selectByIndex(1);
 		driver.findElement(By.xpath("//*[@id=\"div_add_line5_error\"]/div/input")).sendKeys("Indore");
 		Select State = new Select(driver.findElement(By.xpath("//*[@id=\"div_state_error\"]/div/select")));
 		State.selectByIndex(10);
-		driver.findElement(By.xpath("//*[@id=\"div_pincode_error\"]/div/input")).sendKeys("454775");
+		driver.findElement(By.xpath("//*[@id=\"div_pincode_error\"]/div/input")).sendKeys("454774");
 		String captchaVal = JOptionPane.showInputDialog("Please enter the captcha value:");
 		driver.findElement(By.xpath("//*[@id=\"div_captcha_error\"]/div/input")).sendKeys(captchaVal);
 		driver.findElement(By.id("Submit")).click();
