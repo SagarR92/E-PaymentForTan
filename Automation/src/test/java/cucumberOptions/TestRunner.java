@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java/features/Login.feature"
-		,glue={"com.pb.stepDefination.stepdefinations"}
+		,glue={"StepDefinations"}
 		)
 
 //@RunWith(Cucumber.class)@CucumberOptions(plugin = {
