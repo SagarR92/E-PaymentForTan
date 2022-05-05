@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
    //path of feature file
    features = "src/test/java/features",
    //path of step definition file
-   glue = "stepDefination")
+   glue = "StepDefinations")
 
 public class TestRunner {
 
@@ -18,5 +18,4 @@ public class TestRunner {
 		// TODO Auto-generated method stub
 
 	}
-
 }
