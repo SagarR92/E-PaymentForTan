@@ -14,7 +14,7 @@ public class TSTD {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "H:\\chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Chrome\\chromedriver_win32 (1)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://onlineservices.tin.egov-nsdl.com/etaxnew/tdsnontds.jsp");
 		driver.manage().window().maximize();

@@ -18,6 +18,7 @@ public class StepDefinations {
 	public void user_login_into_the_application_with_username_and_password() throws Throwable {
 		System.out.println("User login into the application with username and password");
 		throw new PendingException();
+	
 	}
 
 	 @Then("Home page is populated$")
